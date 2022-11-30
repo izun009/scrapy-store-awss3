@@ -20,8 +20,8 @@ NEWSPIDER_MODULE = 'aws_scrapy.spiders'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
-AWS_ACCESS_KEY_ID='AKIAXHQISMR34DVEDNGF'
-AWS_SECRET_ACCESS_KEY='qtbDlKfSArvT+V23Qos6LcA881gjuLERN8ZMdr8P'
+AWS_ACCESS_KEY_ID='your_access_key'
+AWS_SECRET_ACCESS_KEY='your_secret_key'
 
 ITEM_PIPELINES = {
     'scrapy.pipelines.files.FilesPipeline': 1
